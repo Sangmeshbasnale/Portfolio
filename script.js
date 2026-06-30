@@ -58,7 +58,7 @@
 
   // Nav scroll state + active link
   const nav = document.getElementById('nav');
-  const sections = ['home','about','education','projects','skills','certifications','contact'];
+  const sections = ['home','about','education','experience','projects','skills','certifications','contact'];
   const navLinks = document.querySelectorAll('.nav-link');
   const backTop = document.getElementById('back-top');
 

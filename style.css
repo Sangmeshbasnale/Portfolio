@@ -168,6 +168,9 @@ section.soft { background: var(--bg-soft); }
 .edu-row h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.125rem; font-weight: 500; }
 .edu-row .org { font-size: .875rem; color: var(--accent); margin: .25rem 0 .5rem; }
 .edu-row p { font-size: .875rem; color: var(--muted); line-height: 1.6; }
+.edu-row .exp-list { margin-top: .5rem; }
+.edu-row .exp-list li { font-size: .875rem; color: var(--muted); line-height: 1.6; margin-bottom: .4rem; }
+.edu-row .exp-list strong { color: var(--text-soft); }
 @media (max-width: 600px) { .edu-row { grid-template-columns: 1fr; } }
 
 /* ---------- PROJECTS ---------- */
